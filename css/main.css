@@ -1,0 +1,234 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+@font-face {font-family: FontAwesome; src: url(../fonts/FontAwesome.otf);}
+@font-face {font-family: Oswald-Light; src: url(../fonts/Oswald-Light.ttf);}
+@font-face {font-family: Oswald-Regular; src: url(../fonts/Oswald-Regular.ttf);}
+@font-face {font-family: PTSerif; src: url(../fonts/PTSerif.ttf);}
+
+header {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-family: Oswald-Regular, sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #eb3c00;
+	height: 110px;
+	width: 375px;
+	float: left;
+	line-height: 2;
+	margin-left: 10px;
+}
+
+.logo span {	
+	color: #939393;
+    font-size: 18px;
+    font-family: PTSerif, serif;
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+
+.contact {
+	float: right;
+	margin-right: 10px;
+	margin-top: 27px;
+	text-align: center;
+}
+
+.login {
+	background-image: url(../img/key.png);
+	background-size: 14px;
+	background-position: center left;
+	background-repeat: no-repeat;
+	width: 95px;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	font-family: FontAwesome;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 45px;
+}
+
+.btn {
+	float: right;
+	width: 200px;
+	height: 45px;
+	background-color: #eb3c00;
+	color: #fff;
+	font-style: italic;
+	text-transform: uppercase;
+    font-size: 13px;
+    font-family: PTSerif;
+    line-height: 45px;
+	cursor: pointer;
+}
+
+
+
+nav {
+	width: 100%;
+	height: 72px;
+	background-color: #282828;
+	position: relative;
+	left: 0;
+	display: flex;
+}
+
+.nav {
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu a {
+	padding: 15px;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Oswald-Regular, sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 42px;
+	display: block;
+	float: left;
+}
+
+.menu a:hover {
+	background-color: #eb3c00;
+}
+
+
+.menu {	
+	margin-left: 10px;
+	min-width: 500px;
+}
+
+.search {	
+	width: 270px;
+	min-width: 270px;
+	height: 45px;
+	color: #rgba(40, 40, 40, 0.2);
+	margin-top: 12px;
+	margin-right: 10px;
+	float: right;
+}
+
+ input[type="search"] {
+ 	border: none;
+ 	outline: none;
+ 	height: 100%;
+ 	padding-left: 10px;
+ 	width: 225px;
+ 	font-family: Oswald-Regular;
+ 	font-size: 18px;
+ }
+
+  input[type="submit"] {
+  	width: 45px;
+  	float: right;
+  	height: 100%;
+  	border: none;
+  	background-color: #fff;
+  	background-image: url(../img/search_icon.png);
+  	background-size: 17px;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	outline: none;
+  	cursor: pointer;
+}
+
+section {
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+h1 {
+	width: 740px;
+  	font-size: 48px;
+  	font-family: Oswald-Regular;
+  	color: rgb(40, 40, 40);
+  	line-height: 1.25;
+  	margin-top: 50px;
+  	padding-left: 10px;
+}
+
+h2 {
+	width: 845px;
+	font-size: 24px;
+  	font-family: PTSerif;
+  	color: rgb(40, 40, 40);
+  	line-height: 1.5;
+  	text-align: left;
+  	font-weight: normal;
+  	margin-top: 35px;
+  	padding-left: 10px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 18px;
+  	font-family: PTSerif;
+  	margin-top: 30px;
+  	padding-left: 10px;
+}
+
+ul {
+  	font-size: 18px;
+  	font-family: PTSerif;
+  	color: rgb(40, 40, 40);
+  	line-height: 1.5;
+  	text-align: left;
+  	margin-left: -10px;
+}
+
+footer {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+footer p {
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 14px;
+  	font-family: Oswald-Regular;
+  	color:  #eb3c00;
+  	line-height: 1.929;
+  	margin-bottom: 25px;
+}
+
+.post {
+	width: 170px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 200px;
+	box-sizing: padding-box;
+}
+
+.post p {
+	margin-top: 5px;
+	font-size: 18px;
+  	font-family: Oswald-Light;
+  	text-transform: none;
+  	font-weight: 400;
+  	color: rgb(40, 40, 40);
+  	line-height: 1.111;
+ }
